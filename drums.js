@@ -1,6 +1,4 @@
-let sound = document.querySelector("#keys")
-
-
+let sound = document.querySelector("#container");
 
 
 let boom1 = document.getElementById("boom1");
@@ -19,28 +17,28 @@ document.addEventListener("keypress", (event) => {
      boom1.play();
     }else if 
       (keypressed =="c"){ 
-        clap1.play()
+        clap1.play();
       }else if 
         (keypressed == "h"){
-        hihat1.play()
+        hihat1.play();
         } else if 
           (keypressed == "k"){
-          kick1.play()  
+          kick1.play();  
         } else if 
           (keypressed == "o"){
-          openhat1.play()
+          openhat1.play();
         }else if 
           (keypressed == "r"){
-          openhat1.play()
+          openhat1.play();
         }else if 
           (keypressed == "s"){
-          ride1.play()
+          ride1.play();
         }else if 
           (keypressed == "t"){
-          tink1.play()
+          tink1.play();
         }else if 
           (keypressed == "m"){
-          tom1.play()  
+          tom1.play();  
       }
     })   
         
