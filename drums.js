@@ -43,22 +43,32 @@ document.addEventListener("keypress", (event) => {
     })   
         
  
-// 
+document.addEventListener("click", () =>{
+boom1.play();
+})
 
-// const clap1 = document.getElementById("clap1");
+document.addEventListener("click", () =>{
+clap1.play();
+})
 
-
-// if ( event.key == "e" ) {
-//      document.getElementById("/drumkitchallenge/clap1").play();
-// }
- 
-
-// }) 
-//  let audioElement = newAudio("clap")
-// let audioElement = newAudio("clap.wav");  
-// document.addEventListener("click", (event) =>{
-//   newAudio.play()
-// })
-// document.getElementById("boom").addEventListener("click",function(){
-//   document.getElementById("clap1").play();
-// } )
+document.addEventListener("click", () =>{
+hihat1.play();
+})
+document.addEventListener("click", (event) =>{
+kick1.play();
+})
+document.addEventListener("click", (event) =>{
+openhat1.play();
+}
+document.addEventListener("click", (event) =>{
+ride1.play();
+})
+document.addEventListener("click", (event) =>{
+snare1.play();
+})
+document.addEventListener("click", (event) =>{
+tink1.play();
+})
+document.addEventListener("click", (event) =>{
+tom1.play();
+})
