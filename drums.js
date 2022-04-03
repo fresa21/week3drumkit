@@ -43,32 +43,47 @@ document.addEventListener("keypress", (event) => {
     })   
         
  
-document.addEventListener("click", () =>{
+boom1.addEventListener("click", () =>{
 boom1.play();
+// boom.style.background-color ; "lightgrey";
 })
 
-document.addEventListener("click", () =>{
+clap1.addEventListener("click", () =>{
 clap1.play();
+// style.background-color ; "lightgrey";
 })
 
-document.addEventListener("click", () =>{
+hihat1.addEventListener("click", () =>{
 hihat1.play();
+style.background-color; "lightgrey";
 })
-document.addEventListener("click", (event) =>{
+
+kick1.addEventListener("click", (event) =>{
 kick1.play();
+style.background-color ; "lightgrey";
 })
-document.addEventListener("click", (event) =>{
+
+openhat1.addEventListener("click", (event) =>{
 openhat1.play();
+style.background-color ; "lightgrey";
 }
-document.addEventListener("click", (event) =>{
+
+ride1.addEventListener("click", (event) =>{
 ride1.play();
+style.background-color ; "lightgrey";
 })
-document.addEventListener("click", (event) =>{
+
+snare1.addEventListener("click", (event) =>{
 snare1.play();
+snare.style.background-color ; "lightgrey";
 })
-document.addEventListener("click", (event) =>{
+
+tink1.addEventListener("click", (event) =>{
 tink1.play();
+tink.style.background-color; "lightgrey";
 })
-document.addEventListener("click", (event) =>{
+
+tom1.addEventListener("click", (event) =>{
 tom1.play();
+tom.style.background-color; "lightgrey";
 })
