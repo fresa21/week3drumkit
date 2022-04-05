@@ -41,16 +41,16 @@ document.addEventListener("keypress", (event) => {
           tom1.play();  
       }
     })   
-        
- 
+       
+let boom = document.getElementById("boom");
 boom1.addEventListener("click", () =>{
 boom1.play();
-// boom.style.background-color ; "lightgrey";
+boom.style.background-color ; "lightgrey";
 })
 
 clap1.addEventListener("click", () =>{
 clap1.play();
-// style.background-color ; "lightgrey";
+style.background-color ; "lightgrey";
 })
 
 hihat1.addEventListener("click", () =>{
